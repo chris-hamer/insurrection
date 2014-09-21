@@ -57,15 +57,15 @@ public class EnemyDetection : MonoBehaviour {
 			{
 				//do nothing and continue scheduled path
 				Parent.SendMessage("SetState", "Return");
-				Debug.Log ("Enemy' sight is blocked by a wall");
+				//Debug.Log ("Enemy' sight is blocked by a wall");
 			}
 			
 			if ((hitInfo.transform.gameObject == Player) && (angle < enemyFieldOfView * 0.5f))
 			{
 				//start the path finding function
-				Parent.SendMessage("SetState", "Chase");
+				//Parent.SendMessage("SetState", "Chase");
 
-				Debug.Log("Enemy found the player");
+				//Debug.Log("Enemy found the player");
 			}
 			if(hitInfo.Equals(null)){
 				Parent.SendMessage("SetState", "Patrol");

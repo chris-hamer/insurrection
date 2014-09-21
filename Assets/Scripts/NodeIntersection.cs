@@ -10,17 +10,17 @@ public class NodeIntersection : MonoBehaviour {
 		//connections = new List<GameObject>();
 	}
 
-	void OnTriggerEnter(Collider collider){
-		if(collider.gameObject.CompareTag("Robot")){
-			Random rnd = new Random();
-
-			Debug.Log(collider.gameObject.ToString());
-
-			collider.gameObject.SendMessage("SetNodeTarget", connections[0]);
-			//collider.gameObject.GetComponent<AIPath>().SetTarget(connections[0]);
-			collider.gameObject.SendMessage("SetState", "Patrol");
-			Debug.Log("Setting new Target");
-		}
-	}
+//	void OnTriggerEnter(Collider collider){
+//		if(collider.gameObject.CompareTag("Robot")){
+//			Random rnd = new Random();
+//
+//			Debug.Log(collider.gameObject.ToString());
+//
+//			collider.gameObject.SendMessage("SetNodeTarget", connections[0]);
+//			//collider.gameObject.GetComponent<AIPath>().SetTarget(connections[0]);
+//			collider.gameObject.SendMessage("SetState", "Patrol");
+//			Debug.Log("Setting new Target");
+//		}
+//	}
 
 }

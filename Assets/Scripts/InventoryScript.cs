@@ -12,7 +12,7 @@ public class InventoryScript : MonoBehaviour {
 	void Start () {
 		x.Add ((GameObject) Instantiate (item,Vector3.zero,Quaternion.identity));
 		x[0].GetComponent<ItemData> ().setDescription("AHAHAHAHAH");
-		Debug.Log (x[0].GetComponent<ItemData> ().getDescription());
+//		Debug.Log (x[0].GetComponent<ItemData> ().getDescription());
 	}
 	
 	// Update is called once per frame

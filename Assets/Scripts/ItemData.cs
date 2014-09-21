@@ -4,6 +4,7 @@ using System.Collections;
 public class ItemData : MonoBehaviour {
 	
 	public string name = "LOOK AT ME IM A NAME";
+	public string type = "LOOK AT ME IM A TYPE";
 	public string description = "LOOK AT ME IM A DESCRIPTION";
 	public string icon = "LOOK AT ME IM AN ICON";
 

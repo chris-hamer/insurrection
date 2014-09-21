@@ -54,6 +54,15 @@ public class AIRobotPatrol : MonoBehaviour {
 		return temp;
 	}
 
+	void OnTriggerEnter(Collider other) {
+		Debug.Log ("GFADHJGNDSKHJKDFAHGKLFESJA");
+		SetNodeTarget (other.gameObject.GetComponent<NodeIntersection> ().connections [0]);
+	}
+
+	public void theRobotHitANodeAndNowWeGottaDealWithIt() {
+
+	}
+
 	// Update is called once per frame
 	void Update () {
 		if(_aiState == "Idle"){
