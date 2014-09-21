@@ -63,7 +63,7 @@ public class EnemyDetection : MonoBehaviour {
 			if ((hitInfo.transform.gameObject == Player) && (angle < enemyFieldOfView * 0.5f))
 			{
 				//start the path finding function
-				//Parent.SendMessage("SetState", "Chase");
+				Parent.SendMessage("SetState", "Chase");
 
 				//Debug.Log("Enemy found the player");
 			}
