@@ -21,7 +21,7 @@ public class PickUpClues : MonoBehaviour {
 			if(Physics.Raycast(rayFromCamera, out hitInfo, 5.0f)){
 				Debug.DrawLine(rayFromCamera.direction, hitInfo.point);
 				Debug.Log("casted a ray");
-				if (hitInfo.transform.tag == "clue"){
+				if (hitInfo.collider.gameObject.tag == "clue"){
 					//place the clue in inventory 
 					//pause game and read from the clue 
 					gameObject.GetComponent<PauseMenu>().Pause();

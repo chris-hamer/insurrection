@@ -7,7 +7,7 @@ public class RoboRailroad : MonoBehaviour {
 	public float speed;
 	// Use this for initialization
 	void Start () {
-		//currentTarget = new GameObject();
+		currentTarget = new GameObject();
 	}
 	
 	// Update is called once per frame
