@@ -475,7 +475,7 @@ public class AIPath : MonoBehaviour {
 
 	public void SetTarget(GameObject obj){
 		target = obj.transform;
-		Debug.Log ("target set: " + obj.name);
+//		Debug.Log ("target set: " + obj.name);
 
 	}
 }

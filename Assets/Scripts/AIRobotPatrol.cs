@@ -74,7 +74,7 @@ public class AIRobotPatrol : MonoBehaviour {
 		}
 		if(_aiState == "Patrol"){
 			gameObject.SendMessage("SetTarget", _targetNode);
-			Debug.Log(_targetNode.ToString());
+//			Debug.Log(_targetNode.ToString());
 		}
 		if(_aiState == "Return"){
 			gameObject.SendMessage("SetTarget", _targetNode);
