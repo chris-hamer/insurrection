@@ -52,7 +52,63 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Bone
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Bone.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Bone.003.L
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Bone.003.L/Armature|Bone.004.L
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Bone.003.R
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Bone.003.R/Armature|Bone.004.R
+        weight: 1
+      - path: Armature/Armature|Bone.002
+        weight: 1
+      - path: Armature/Armature|Bone.002/Armature|Bone.003
+        weight: 1
+      - path: Armature/Armature|Bone.003.L.001
+        weight: 1
+      - path: Armature/Armature|Bone.003.R.001
+        weight: 1
+      - path: Armature/Armature|Bone.004.L.001
+        weight: 1
+      - path: Armature/Armature|Bone.004.R.001
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
